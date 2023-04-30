@@ -1,0 +1,369 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.main-header{ 
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 40px;
+	background: white;
+}
+
+.menu-bar{
+	padding: 2px;
+	height: 20px;
+	background: #222222;
+}
+
+.menu{
+	padding-bottom: 10px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 15px;
+	width: 1000px;
+}
+
+.menu ul{ 
+	font-family: 'Julius Sans One', sans-serif;
+	list-style: none;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.menu ul a{
+	color: white;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+}
+
+.menu ul a:hover{
+	color: #A0C7E1;
+}
+
+.welcome{
+	height: 100vh;
+}
+
+.welcome-text video{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.first-heading-welcome{
+	font-family: 'Julius Sans One', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 55px;
+}
+
+
+.second-heading-welcome{
+	font-family: 'Julius Sans One', sans-serif;
+	position: absolute;
+	top: 63%;
+	left: 28.5%;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.after-welcome-div{
+	background:#f2fafa;
+}
+
+.after-welcome h3{
+	color: #7a8282;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: left;
+	font-size: 40px;
+	padding-left: 100px;
+}
+
+.after-welcome p{
+	color: #849696;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: lighter;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.author{
+	color: #7a8282;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: right;
+	font-size: 20px;
+}
+
+.graphic-design h5{
+	color: #222222;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: left;
+	font-size: 40px;
+	padding-left: 100px;
+}
+
+.graphic-design p{
+	color:#545454;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: lighter;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.graphic-websites-div ol{
+	padding-left: 120px;
+	padding-right: 100px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.graphic-websites-div ol a{
+	text-decoration: none;
+	color: #222222;
+	transition: all 0.3s ease 0s;
+}
+
+.graphic-websites-div ol a:hover{
+	color: pink;
+}
+
+.join-frame{
+	transform: translate(50%,-10%);
+	width: 50%;
+}
+
+.about-picture img{
+	margin: 0 auto;
+	position: center;
+	width: 100%;
+}
+
+.about{
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: left;
+	font-size: 40px;
+	padding-left: 100px;
+}
+
+.about-context{
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: lighter;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.team-continer{
+	background: white;
+}
+
+.team-header{
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: lighter;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.content-table table,th,td{
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: lighter;
+	position: center; 
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 800px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: black;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid black;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: gray;
+}
+
+
+.join-form-div{
+	background: linear-gradient( -30deg, #57a2b3, #9ddceb);
+}
+
+.title-join h1{
+	font-family: 'Julius Sans One', sans-serif;
+	position: center;
+	top: 50%;
+	left: 30%;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.title-join h2{
+	font-family: 'Julius Sans One', sans-serif;
+	position: center;
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.input-container{
+	position: center;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.input-container input{
+	height: 30px;
+	width: 350px;
+	opacity: 60%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+}
+
+.submit-button button{
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+	position: center;
+    background: white;
+    text-align: center;
+    color: #222222;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.submit-button button a{
+	text-decoration: none;
+	color: #222222;
+}
+
+.submitted-div{
+	background: #608c96;
+}
+
+.submitted-div h1{
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
+	position: center;
+	top: 50%;
+	left: 30%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.contact-menu img{
+	box-sizing: border-box;
+	background-size: cover;
+	margin: 0 auto;
+	width: 1263px;
+	position: center;
+}
+
+.contact-menu h1{
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 41%;
+}
+
+.contact-menu p{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 37%;
+}
+
+.contact-menu{
+	position: center;
+	font-family: 'Julius Sans One', sans-serif;
+	position: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 0 auto;
+}
+
+.contact-menu ul{
+	color: white;
+	position: absolute;
+	margin: 0;
+	transform: translate(280%,420%);
+	display: flex;
+}
+
+.contact-menu ul li{
+	list-style: none;
+}
+
+.contact-menu ul li img{
+	transition: 0.6s;
+	box-shadow: 0 1px 3px #8c8c8c;
+	justify-content: space-between;
+	position: relative;
+	width: 60px;
+	border-radius: 100%;
+	background-color: #222222;
+}
+
+.contact-menu ul li img:hover{
+	box-shadow: 0 1px 5px #8c8c8c;
+	transform: translate(0, -10px);
+}
+
+.contact-email img:hover{
+	background: #e05d84;
+}
+
+.contact-telephone img:hover{
+	background: #fcbf88;
+}
+
+.main-footer p{
+	font-size: 8px;
+}
+
+.main-footer{
+	background: #222222;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	font-weight: lighter;
+    font-family: 'Montserrat Alternates', sans-serif;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<title>Dot.</title>
+</head>
+<body>
+	<header class="main-header"><big>Dot.</big></header>
+	<nav>
+		<div class="menu-bar">
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="Team.html">Team</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li><a href="Join.html">Join</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+    </nav>
+    <section class="welcome">
+    	<div class="welcome-text">
+    	     <h1 class="first-heading-welcome">Welcome to Dot.</h1>
+    	     <h2 class="second-heading-welcome">Where you can find the best quality of artworks</h2>
+    	     <video loop autoplay muted="true" src="visuals/g1 up.mp4"></video>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="graphic-design">
+    	<h5>Graphic Design</h5>
+    	<p>is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet client's specific needs and focus on the logic of displaying elements in interactive designs, to optimize the client's experience.
+    	<br><br><big>Here's some websites you can view:</big></p>
+    	<div class="graphic-websites-div">
+    	<ol class="graphic-websites">
+    		<li><a href="https://www.behance.net/" target="_blank">Behance</a></li>
+    		<li><a href="https://dribbble.com/" target="_blank">Dribbble</a></li>
+    		<li><a href="https://www.pinterest.com/" target="_blank">Pinterest</a></li>
+    	</ol>
+    	</div>
+    </div>
+    <br><br>
+    <div>
+        <iframe class="join-frame" src="Join.html"></iframe>
+    </div>
+    <div class="after-welcome-div"><br><br>
+    <section class="after-welcome">
+    	<h3>Quote</h3>
+    	<br>
+    	<p>"Design is not just what it looks like and feels like. Design is how it works."</p>
+    	<p class="author">-Steve Jobs</p>
+    </section>
+    <br><br>
+    </div>
+    <footer class="main-footer">
+    	<br>
+        <p>Date: <span id="datetime"></span></p>
+        <br>
+    	<h4>Copyright © 2020 | CCIS KSU</h4>
+        <br>
+
+        <script>
+           var dateOnly = new Date();
+           document.getElementById("datetime").innerHTML = dateOnly.toLocaleDateString();
+        </script>
+    </footer>
+</body>
+</html>
